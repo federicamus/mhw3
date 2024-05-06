@@ -1,0 +1,1085 @@
+@import url(https://db.onlinewebfonts.com/c/1b3f9cb78376a36884f3908f37a42c91?family=Tiempos+Text+Regular);
+@import url(https://db.onlinewebfonts.com/c/4c40c7f27503517082e3857518913bab?family=Brandon+Grotesque+Bold);
+@import url(https://db.onlinewebfonts.com/c/544da55955a950deb15d6a7536c4da34?family=Brandon+Grotesque+Regular);
+
+@font-face {
+    font-family: "Tiempos Text Regular";
+    src: url("https://db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.eot");
+    src: url("https://db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/1b3f9cb78376a36884f3908f37a42c91.svg#Tiempos Text Regular")format("svg");
+}
+
+@font-face {
+    font-family: "Brandon Grotesque Bold";
+    src: url("https://db.onlinewebfonts.com/t/4c40c7f27503517082e3857518913bab.eot");
+    src: url("https://db.onlinewebfonts.com/t/4c40c7f27503517082e3857518913bab.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/4c40c7f27503517082e3857518913bab.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/4c40c7f27503517082e3857518913bab.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/4c40c7f27503517082e3857518913bab.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/4c40c7f27503517082e3857518913bab.svg#Brandon Grotesque Bold")format("svg");
+}
+
+@font-face {
+    font-family: "Brandon Grotesque Regular";
+    src: url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.eot");
+    src: url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/544da55955a950deb15d6a7536c4da34.svg#Brandon Grotesque Regular")format("svg");
+}
+
+body {
+    margin: 0;
+    font-family: "Tiempos Text Regular", serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+header {
+    height: 85px;
+    padding-top: 40px;
+    background-color: #fdfeff;
+}
+
+a {
+    color: black;
+}
+
+.container {
+    padding-right: 10rem;
+    padding-left: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 8rem;
+    line-height: inherit;
+    color: black;
+}
+
+.logo-img {
+    height: 36px;
+}
+
+.nav-options {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 0.5rem 1rem;
+}
+
+@media (max-width: 500px) {
+    .nav-options {
+        display: none;
+    }
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+.cerca {
+    width: 20px;
+}
+
+.profile {
+    width: 40px;
+    margin-top: -10px;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.cerca_form {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.iperborei-title {
+    display: flex;
+    margin-top: 32px;
+    margin-left: 2px;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.iperborei-logo {
+    width: 58%;
+}
+
+.novita-tab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.libro-novita {
+    padding:10px;
+    color: black;
+}
+
+.libro-format {
+    display: flex;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.cop-libro {
+    margin-right: 20px;
+}
+
+.img-libro {
+    height: 200px;
+    width: 101px;
+}
+
+.autore-libro {
+    font-family: "Brandon Grotesque Bold";
+    opacity: .7;
+    margin-bottom: 0.4rem;
+}
+
+.titolo-libro {
+    font-family: "Brandon Grotesque Bold";
+}
+
+.separatore {
+    border-bottom: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 30px;
+}
+
+.trama-libro {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.scopri-iperborei {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-family: "Brandon Grotesque Bold";
+}
+
+.link-iperborei {
+    width: 250px;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+#collane {
+    background-color: #e6f2fd;
+    padding-top: 40px;
+    height: 600px;
+}
+
+@media (max-width: 500px) {
+    #collane {
+        height: 1500px;
+    }
+}
+
+.collane-intestazione {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-family: "Brandon Grotesque Bold";
+}
+
+.collane-title {
+    font-size: 30px;
+}
+
+.collane-tutte {
+    width: 100px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+@media (max-width: 500px) {
+    .collane-tutte {
+        display: none;
+    }
+}
+
+.collane-link {
+    color: black;
+}
+
+.collane-tab {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+    .collane-tab {
+        flex-direction: column;
+    }
+}
+
+.collana-format {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-corvi {
+    height: 28.8px;
+    width: 175.24px;
+    margin-bottom: 15px;
+}
+
+.logo-miniborei {
+    height: 32px;
+    width: 230.38px;
+    margin-bottom: 15px;
+}
+
+.logo-mumin {
+    height: 32px;
+    width: 81.45px;
+    margin-bottom: 15px;
+}
+
+.copertine {
+    display: flex;
+}
+
+.cop-collana {
+    height: 172px;
+    width: 111.8px;
+    margin-right: 15px;
+}
+
+.cop-mumin {
+    height: 173.25px;
+    width: 330px;
+    margin-right: 15px;
+}
+
+.cop-nisse {
+    height: 173.25px;
+    width: 139.3px;
+    margin-right: 15px;
+}
+
+.testo-collana {
+    width: 280px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.scopri-collana {
+    border: 1px solid black;
+    padding: 10px;
+    width: fit-content;
+    font-family: "Brandon Grotesque Bold";
+}
+
+@media (max-width: 500px) {
+    .scopri-collana {
+        margin-bottom: 40px;
+    }
+}
+
+#thepassenger {
+    height: 440px;
+    background-color: #d8dbeb;
+}
+
+@media (max-width: 500px) {
+    #thepassenger {
+        height: 800px;
+    }
+}
+
+.passenger-format {
+    display: flex;
+    padding: 80px 15px;
+    justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+    .passenger-format {
+        flex-direction: column;
+    }
+}
+
+.passenger-info {
+    display: flex;
+    padding: 0px 15px;
+    flex-direction: column;   
+}
+
+.passenger-title {
+    height: 25px;
+    width: 270px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.passenger-logo {
+    height: 23.2px;
+    width: 244.4px;
+}
+
+.passenger-testo {
+    height: 120px;
+    width: 350px;
+}
+
+@media (max-width: 500px) {
+    .passenger-testo {
+        width: 270px;
+        margin-bottom: 70px;
+    }
+}
+
+.scopri-passenger {
+    color: black;
+    font-family: "Brandon Grotesque Bold";
+    border: 1px solid black;
+    width: fit-content;
+    padding: 10px;
+}
+
+.cop-passenger {
+    display: flex;
+    height: 302.8px;
+    width: 360px;
+    margin-right: 150px;
+    padding: 0px 15px;
+}
+
+.pass-img {
+    height: 232.39px;
+    width: 156.75px;
+    margin-right: 30px;
+    padding: 35px 0px;
+}
+
+#cosespiegatebene {
+    height: 480px;
+    background-color: #f4dce9;
+}
+
+@media (max-width: 500px) {
+    #cosespiegatebene {
+        height: 800px;
+    }
+}
+
+.csb-format {
+    display: flex;
+    padding: 80px 15px;
+    justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+    .csb-format {
+        flex-direction: column;
+    }
+}
+
+.csb-info {
+    display: flex;
+    padding: 0px 15px;
+    flex-direction: column;  
+}
+
+.csb-title {
+    height: 60px;
+    width: 270px;
+    padding-top: 0px;
+    padding-bottom: 24px;
+    margin-bottom: 8px;
+}
+
+.csb-logo {
+    height: 60px;
+    width: 75.96px;
+}
+
+.csb-testo {
+    height: 150px;
+    width: 330px;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+
+@media (max-width: 500px) {
+    .csb-testo {
+        width: 270px;
+        margin-bottom: 50px;
+    }
+}
+
+.scopri-csb {
+    color: black;
+    font-family: "Brandon Grotesque Bold";
+    border: 1px solid black;
+    width: fit-content;
+    padding: 10px;
+}
+
+.cop-csb {
+    display: flex;
+    height: 302.8px;
+    width: 360px;
+    padding: 0px 15px;
+}
+
+.csb-img {
+    height: 244.65px;
+    width: 156.75px;
+    margin-right: 30px;
+    padding: 35px 0px;
+}
+
+#integrale {
+    height: 410px;
+    background-color: #fdf9e6;
+}
+
+@media (max-width: 500px) {
+    #integrale {
+        height: 750px;
+    }
+}
+
+.int-format {
+    display: flex;
+    padding: 80px 15px;
+    justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+    .int-format {
+        flex-direction: column;
+    }
+}
+
+.int-info {
+    display: flex;
+    padding: 0px 15px;
+    flex-direction: column;  
+}
+
+.int-title {
+    height: 38.4px;
+    width: 270px;
+    padding-top: 0px;
+    padding-bottom: 24px;
+    margin-bottom: 8px;
+}
+
+.int-logo {
+    height: 23.2px;
+    width: 106.7px;
+}
+
+.int-testo {
+    height: 170px;
+    width: 350px;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+
+@media (max-width: 500px) {
+    .int-testo {
+        width: 270px;
+        margin-bottom: 50px;
+    }
+}
+
+.scopri-int {
+    color: black;
+    font-family: "Brandon Grotesque Bold";
+    border: 1px solid black;
+    width: fit-content;
+    padding: 10px;
+}
+
+.cop-int {
+    display: flex;
+    height: 250.8px;
+    width: 330px;
+    padding: 50px 15px;
+    margin-top: -30px;
+}
+
+.int-img {
+    height: 220.73px;
+    width: 156.75px;
+    margin-right: 30px;
+    padding: 35px 0px;
+}
+
+#eventi {
+    padding: 60px 0px;
+    height: 400px;
+}
+
+@media (max-width: 500px) {
+    #eventi {
+        height: 750px;
+        padding: 0px;
+    }
+}
+
+.eventi-format {
+    display: flex;
+    margin: 0px -25px;
+    height: 400px;
+}
+
+@media (max-width: 500px) {
+    .eventi-format {
+        flex-direction: column;
+        margin: 0px 0px;
+    }
+}
+
+.eventi-gen {
+    padding: 50px 40px;
+    width: 30%;
+    background-color: #dae8e0;
+}
+
+@media (max-width: 500px) {
+    .eventi-gen {
+        width: 100%;
+        margin-left: -40px;
+    }
+}
+
+.boreali {
+    padding: 50px 40px;
+    width: 70%;
+    background-color: #ebf3ef;
+}
+
+@media (max-width: 500px) {
+    .boreali {
+        width: 100%;
+        margin-left: -40px;
+    }
+}
+
+.eventi-title {
+    margin-bottom: 8px;
+    margin-top: 0px;
+    padding-bottom: 24px;
+    font-size: xx-large;
+    font-family: "Brandon Grotesque Bold";
+}
+
+.eventi-info {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    padding-bottom: 24px;
+    font-family: "Brandon Grotesque Bold";
+}
+
+.eventi-link {
+    color: black;
+    font-family: "Brandon Grotesque Bold";
+}
+
+.boreali-title {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    padding-bottom: 24px;
+}
+
+.boreali-logo1 {
+    height: 28.8px;
+    width: 126.38px;
+}
+
+.boreali-logo2 {
+    height: 28.8px;
+    width: 28.77px;
+}
+
+.boreali-logo3 {
+    height: 28.8px;
+    width: 225.59px;
+}
+
+.boreali-format {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boreali-luogodata {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    padding-bottom: 24px;
+    font-family: "Brandon Grotesque Bold";
+}
+
+.boreali-img {
+    margin-top: -70px;
+    height: 250px;
+}
+
+#news {
+    height: 900px;
+    background-color: #fcfadc;
+}
+
+@media (max-width: 500px) {
+    #news {
+        height: 1050px;
+    }
+}
+
+.news-intestazione {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+.news-title {
+    font-size: 30px;
+    font-family: "Brandon Grotesque Bold";
+}
+
+.news-link {
+    width: 200px;
+    font-family: "Brandon Grotesque Bold";
+    padding-top: 30px;
+}
+
+.news-corpo {
+    display: flex;
+    padding: 16px 0px;
+}
+
+@media (max-width: 500px) {
+    .news-corpo {
+        flex-direction: column;
+    }
+}
+
+.news-img {
+    width: 305px;
+    height: 320px;
+    padding: 0px 15px;
+}
+
+.news-info {
+    padding-left: 100px;
+    font-weight: bold;
+}
+
+@media (max-width: 500px) {
+    .news-info {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+}
+
+.news-speciale {
+    font-size: 23px;
+    color: black;
+    font-family: "Brandon Grotesque Bold";
+}
+
+.news-testo {
+    display: flex;
+    margin-top: 30px;
+    font-weight: normal;
+    justify-content: space-between;
+}
+
+.news-sep {
+    border-top: 1px solid black;
+    width: 120px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.news-leggi {
+    color: black;
+    font-family: "Brandon Grotesque Bold";
+}
+
+.nascondi-news {
+    padding-top: 20px;
+    font-family: "Brandon Grotesque Bold";
+    text-align: end;
+}
+
+#player {
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.newsletter {
+    font-family: "Brandon Grotesque Bold";
+}
+
+.newsletter-link {
+    color: black;
+    border: 1px solid black;
+    padding: 30px 100px;
+    background-color: white;
+    width: fit-content;
+    float: right;
+    text-align: center;
+    margin-top: -50px;
+    margin-right: 150px;
+}
+
+.newsletter-iscrizione {
+    border: 1px solid black;
+    position: fixed;
+    background-color: whitesmoke;
+    top: 250px;
+    left: 350px;
+    width: 650px;
+    padding: 20px;
+}
+
+.esci-newsletter {
+    font-family: "Brandon Grotesque Bold";
+    float: right;
+}
+
+.iscriviti {
+    font-family: "Brandon Grotesque Bold";
+   float: right;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+    .newsletter-link {
+        margin-left: 100px;
+    }
+}
+
+#classifiche {
+    margin-top: 100px;
+}
+
+@media (max-width: 500px) {
+    #classifiche {
+        margin-top: 250px;
+    }
+}
+
+.classifiche-title {
+    font-size: xx-large;
+    font-family: "Brandon Grotesque Bold";
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.class-iperborei {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+    border-bottom: 1px solid black;
+    font-family: "Brandon Grotesque Bold";
+}
+
+@media (max-width: 500px) {
+    .class-mobile {
+        display: none;
+    }
+}
+
+.class-miniborei {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    font-family: "Brandon Grotesque Bold";
+}
+
+.class-nomecollana {
+    color: gray;
+    font-weight: bold;
+    margin-right: 80px;
+}
+
+.class-sep {
+    border-top: 1px solid black;
+    width: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+.class-link {
+    color: black;
+    font-weight: bold;
+    padding: 0px 30px;
+}
+
+.class-autore {
+    color: gray;
+    padding-top: 10px;
+    margin-bottom: -10px;
+}
+
+#temi {
+    background-color: #e8e1e2;
+    height: 580px;
+}
+
+.temi-title {
+    font-size: xx-large;
+    font-family: "Brandon Grotesque Bold";
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.temi-tab {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.turn-left {
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.turn-right {
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.temi-link {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media (max-width: 500px) {
+    .temi-link {
+        font-size: 14px;
+    }
+}
+
+.temi-img {
+    width: 70px;
+    height: 86px;
+}
+
+.vedi-temi {
+    display: flex;
+    color: black;
+    font-family: "Brandon Grotesque Bold";
+    justify-content: center;
+}
+
+#paesi {
+    padding-top: 50px;
+}
+
+.paesi-title {
+    font-size: xx-large;
+    font-family: "Brandon Grotesque Bold";
+    padding-bottom: 100px;
+    border-bottom: 1px solid black;
+}
+
+.paesi-tab {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.paesi-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.paesi-last-row {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width: 55%;
+    justify-content: space-between;
+}
+
+.paesi-link {
+    color: black;
+    font-size: 20px;
+    width: 150px;
+}
+
+@media (max-width: 500px) {
+    .paesi-link {
+        font-size: 14px;
+    }
+}
+
+footer {
+    margin-top: 200px;
+    background-color: #f3f5f5;
+    padding-top: 80px;
+    height: 400px;
+    font-size: 13.6px;
+}
+
+@media (max-width: 500px) {
+    footer {
+        height: 1300px;
+    }
+}
+
+.footer-format {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+}
+
+#map {
+    height: 100px;
+    width: 150px;
+}
+
+@media (max-width: 500px) {
+    .footer-format {
+        flex-direction: column;
+    }
+}
+
+.footer-tab {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+    .footer-tab {
+        flex-direction: column;
+    }
+}
+
+.footer-column {
+    width: 160px;
+}
+
+.footer-title {
+    font-size: large;
+    font-family: "Brandon Grotesque Bold";    
+    padding-top: 0px;
+}
+
+.hidden {
+    display: none;
+}
+
+#search-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#full-page-search {
+    margin: 20px;
+}
+
+#full-page-search-exit {
+    font-size: 30px;
+}
+
+#full-page-search-form {
+    margin: auto;
+    width: 80%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+#search-input {
+    width: 80%;
+    border-width: 0px;
+    font-family: "Tiempos Text Regular", serif;
+    font-size: 20px;
+}
+
+#search-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-button {
+    border-width: 0px;
+    font-family: "Tiempos Text Regular", serif;
+    font-size: 20px;
+    background-color: white;
+}
+
+.cancella-button {
+    border-width: 0px;
+    font-family: "Tiempos Text Regular", serif;
+    font-size: 20px;
+    background-color: white;
+}
+
+#SearchResults-view {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  #SearchResults-view .book {
+    margin: 10px;
+    padding: 5px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+
